@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #25d6bf8c;
+    color: #000000;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #19ab89;
+    padding: 2em;
+    text-align: center;
+}
+
+#product-listings {
+    padding: 2em;
+}
+
+.product {
+    border: 1px solid #11c75dc5;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
